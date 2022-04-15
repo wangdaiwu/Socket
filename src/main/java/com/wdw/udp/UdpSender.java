@@ -5,7 +5,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-public class udpSender {
+public class UdpSender {
     public static void main(String[] args) throws IOException {
         DatagramSocket socket = new DatagramSocket(8081);
         byte[] data = "hello".getBytes();

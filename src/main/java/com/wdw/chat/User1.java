@@ -14,7 +14,7 @@ public class User1 {
             public void run() {
                 try {
                     Thread.sleep(10000);
-                    ChatService.sendMessageAndFile("localhost", 8002, "localhost", 18002);
+                    ChatService.sendMessageAndFile("localhost", 8002, 18002);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

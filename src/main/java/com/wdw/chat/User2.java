@@ -12,7 +12,7 @@ public class User2 {
         new Thread() {
             @Override
             public void run() {
-                    ChatService.sendMessageAndFile("localhost", 8001, "localhost", 18001);
+                    ChatService.sendMessageAndFile("localhost", 8001, 18001);
             }
         }.start();
 
